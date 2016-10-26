@@ -1,0 +1,42 @@
+.menu ul {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    float: right;
+    width: 100%;
+    list-style-type: none;
+    border-collapse: collapse;
+}
+
+.menu li {
+    border: 1px solid black;
+    border-collapse: collapse;
+    display: table-cell;
+    padding-left: 0px;
+}
+
+.menu a {
+    color: black;
+    display: block;
+    padding: 5px 20px;
+}
+
+.menu a:hover {
+    color: white;
+    background-color: #333333;
+}
+
+.active {
+    background-color: #AD235E;
+}
+
+/*	*************************************
+	Media Queries
+	************************************* */
+
+@media(max-width: 600px) {
+
+    .menu li {
+        display: block;
+    }
+}

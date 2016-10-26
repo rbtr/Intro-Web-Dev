@@ -1,0 +1,36 @@
+article {
+    width: 100%;
+}
+
+figure {
+    float: right;
+    margin-left: 20px;
+    text-align: center;
+}
+
+div {
+    display: block;
+}
+
+p {
+    display: block;
+    margin: 1em;
+}
+
+.teaser {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    vertical-align: middle;
+    border: 1px solid #DFEFE0;
+    border-collapse: collapse;
+    padding: 15px;
+}
+
+.teaser-pic {
+    max-height: 100px;
+    width: auto;
+    float: right;
+    margin-right: 0px;
+    padding: 10px;
+}
